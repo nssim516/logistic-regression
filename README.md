@@ -45,7 +45,7 @@ Option 1: Run the Jupyter Notebook
 - Run all cells sequentially to see the complete workflow
 
 Option 2: Use the Class Directly
-``
+```
 import numpy as np
 import pandas as pd
 from LogisticRegressionScratch import LogisticRegressionScratch
@@ -63,7 +63,7 @@ weights = model.get_weights()
 intercept = model.get_intercept()
 print(f"Weights: {weights}")
 print(f"Intercept: {intercept}")
-``
+```
 
 Option 3: Extract and Use as Python Module
 
